@@ -61,5 +61,13 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
-
+	
+  @Test
+  public void newtestjtGreeterPass()
+  {
+	  g.setGradeInSWE(86);
+	  assertEquals(g.getGradeInSWE(), 86);	
+  }
+	
+	
 }
