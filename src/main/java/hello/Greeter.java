@@ -7,6 +7,7 @@ public class Greeter {
 
 
   private String name = "";
+  private int gradeInSWE = 96;
 
 
 
@@ -27,7 +28,18 @@ public class Greeter {
       this.name = name;
 
   }
-
+  
+  public void setGradeInSWE(int grade)
+  {
+   
+      this.gradeInSWE = grade;
+    
+  }
+  
+  public int getGradeInSWE()
+  {
+      return gradeInSWE;
+  }
 
 
   public String sayHello() 
