@@ -69,5 +69,12 @@ public class TestGreeter {
 	  assertEquals(g.getGradeInSWE(), 86);	
   }
 	
+  @Test
+  public void newtestjtGreeterFail()
+  {
+	  g.setGradeInSWE(74);
+	  assertEquals(g.getGradeInSWE(), 77);
+  }
+	
 	
 }
