@@ -72,5 +72,15 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Roddie Frederik!");
 
    }
+	
+   public void newtestRFGreeterFail()
+
+   {
+	   
+      g.setName("Roddie Frederik");
+
+      assertEquals(g.sayHello(),"Hello Roddie Frederik");
+
+   }
 
 }
