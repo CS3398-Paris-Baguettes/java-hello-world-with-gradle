@@ -73,15 +73,6 @@ public class TestGreeter {
 
    }
 
-  @Test
-   public void newtestRFGreeterFail()
 
-   {
-	   
-      g.setName("Roddie Frederik");
-
-      assertEquals(g.sayHello(),"Hello Jim");
-
-   }
 
 }
