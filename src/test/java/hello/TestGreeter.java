@@ -63,15 +63,13 @@ public class TestGreeter {
 	
    @Test
 
-   public void newtestAMGreeterPass()
+   public void newtestRFGreeterPass()
 
    {
 	   
-      g.setName("Alex Muyshondt");
-	   
-      assertEquals(g.getName(),"Alex Muyshondt");
+      g.setName("Roddie Frederik");
 
-      assertEquals(g.sayHello(),"Hello Alex Muyshondt!");
+      assertEquals(g.sayHello(),"Hello Roddie Frederik!");
 
    }
 
